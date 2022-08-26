@@ -19,6 +19,7 @@ Para as etapas de análise e Machine Learning, utilizou-se extensamente as possi
 **Descrição das Variáveis**
 
 id  - ID único
+
 diagnonis - Diagnóstico (M (Maligno), B (Benigno))
 
 Além dessas duas, existem 30 variáveis que descrevem características físicas, enrtre elas raio, textura, perímetro, área, etc. Por conta disso, não serão descritas aqui uma a uma, mas podem ser visualizadas no notebook.
@@ -30,7 +31,9 @@ Além dessas duas, existem 30 variáveis que descrevem características físicas
 
 - Separação bastante nítida entre Maligno e Benigno, de acordo com a distância, entre diferentes características
 
-Para a estimativa com o objetivo de predizer se o tumor é maligno ou benigno foi implementado o modelo de **Regressão Logística** que atingiu uma performance de **Recall em 0.98**.Escolhi o Recall, pois se tratando de um caso médico, é mais interessante para a empresa responsável pelo diagnóstico lidar com os Falsos Negativos, visto que poderiam causar problemas legais quanto a decisões equivocadas. 
+Para a estimativa com o objetivo de predizer se o tumor é maligno ou benigno foi implementado o modelo de **Regressão Logística** que atingiu uma performance de **Recall em 0.98**. Escolhi o Recall, pois se tratando de um caso médico, é mais interessante para a empresa responsável pelo diagnóstico lidar com os Falsos Negativos, visto que poderiam causar problemas legais quanto a decisões equivocadas.
+
+## Conclusão
 
 Através desse projeto foi possível praticar e implementar conceitos importantes da **Ciência de Dados** e propor uma solução para um problema latente e recorrente em empresas de diagnóstico que prestam serviço para a população, através da **Análise de Dados** dos dados de características médicas de um tumor, com a criação de um modelo de **Machine Learning**.
 
