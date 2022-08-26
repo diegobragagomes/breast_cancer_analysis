@@ -37,4 +37,4 @@ Para a estimativa com o objetivo de predizer se o tumor é maligno ou benigno fo
 
 Através desse projeto foi possível praticar e implementar conceitos importantes da **Ciência de Dados** e propor uma solução para um problema em empresas de diagnóstico que prestam serviço para a população, através da **Análise de Dados** dos dados de características médicas de um tumor, com a criação de um modelo de **Machine Learning**.
 
-Analisando possíveis melhorias, poderia haver uma inspeção dos outliers utilizando o Isolation Forest, além de uma Feature Selection para reduzir os componentes e gerar um deploy mais adequado com menos features. Outro ponto, seria uma automação desse processo como um todo.
+Analisando possíveis melhorias, poderia haver uma inspeção dos outliers utilizando o Isolation Forest, além de uma Feature Selection para reduzir os componentes e gerar um deploy mais adequado com menos features. Outro ponto seria uma automação desse processo como um todo.
